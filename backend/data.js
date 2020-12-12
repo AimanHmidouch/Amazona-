@@ -16,7 +16,7 @@ const data = {
     ],
     products: [
         {
-            _id:'1',
+            
             name:'Nike >Slim shirt',
             category: 'Shirts',
             image:'/images/p1.jpg',
@@ -28,7 +28,7 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'2',
+            
             name:'Nike long shirt',
             category: 'Shirts',
             image:'/images/p1.jpg',
@@ -40,8 +40,7 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'3',
-            name:'Nike >Slim shirt',
+            name:'Adidas Slim shirt',
             category: 'Shirts',
             image:'/images/p1.jpg',
             price:60,
@@ -52,8 +51,8 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'4',
-            name:'Nike >Slim shirt',
+            
+            name:'acliclas Slim shirt',
             category: 'Shirts',
             image:'/images/p1.jpg',
             price:120,
@@ -64,7 +63,7 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'5',
+            
             name:'Nike >Slim shirt',
             category: 'Shirts',
             image:'/images/p1.jpg',
@@ -76,7 +75,7 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id:'6',
+            
             name:'Nike >Slim shirt',
             category: 'Shirts',
             image:'/images/p1.jpg',
