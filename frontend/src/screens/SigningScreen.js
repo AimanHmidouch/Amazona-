@@ -18,7 +18,7 @@ export default function SigningScreen(props) {
 
     const dispatch = useDispatch();
     const submitHandler = (e) => {
-        e.preventDefault();
+        e.preventDefault();  // avoids refreshing
         dispatch(signin(email, password));
     };
     useEffect(() =>{
