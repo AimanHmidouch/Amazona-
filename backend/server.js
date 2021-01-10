@@ -9,7 +9,7 @@ import orderRouter from './routers/orderRouter.js';
 dotenv.config(); 
 const app= express();
 app.use(express.json())
-//app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({extended: true}))
 mongoose.connect(process.env.ATLAS_MONGO, {
     useNewUrlParser:true,
     useUnifiedTopology: true,
